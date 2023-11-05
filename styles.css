@@ -17,38 +17,9 @@
 
 .main {
     display: flex;
-    width: 100%;
-}
-
-.div1 {
-    flex: 2;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-}
-
-.div2 {
-    flex: 4;
-    padding: 30px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: rgb(12, 8, 116);
-}
-
-.div3 {
-    flex: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background-color: rgb(255, 255, 255);
-}
-
-.div4 {
-    flex: 7;
-    padding: 30px;
-    background-color: aquamarine;
+    background-color: rgb(161, 166, 164);
 }
 
 .contentDiv {
@@ -60,27 +31,59 @@
     padding: 10px
 }
 
-.colorPick {
+.colorPicker {
     margin: auto;
     /* border: 0;
     padding: 0; */
     /* background: none; */
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
 }
 
-.sliderPick {}
-
-.resetBtn {
+.Btn {
     color: aliceblue;
     background-color: black;
-    padding: 5px;
-    width: 100px;
-    height: 30px;
-    margin: 40px;
+    width: 150px;
+    height: 50px;
     border-radius: 5px;
 }
 
-.resetBtn:hover {
+.resetBtn {
+    margin: 50px;
+}
+
+.Btn:hover {
     background-color: darkblue;
+}
+
+.sketchSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketchDiv {
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    width: 90%;
+    height: 600px;
+    margin-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 1%;
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 8, 85);
+}
+
+.element {
+    background-color: blanchedalmond;
+    padding: 20px;
 }
